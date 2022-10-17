@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataServiceService } from '../data-service.service';
 import { MainService } from '../main.service';
 
 @Component({
@@ -8,18 +9,21 @@ import { MainService } from '../main.service';
 })
 export class PagesComponent implements OnInit {
 
-  constructor( public apiService:MainService) { }
+  constructor( public apiService:MainService,public question:DataServiceService) { }
 
   ngOnInit(): void {
-   this.getData()
+  //  this.getData()
+  this.dataQuestion = this.question.data
+
+  
   }
   dataQuestion:any = []
-  getData(){
-    this.apiService.get('http://localhost:3000/question').subscribe((data:any) => {
-      console.log(data);
-      this.dataQuestion = data
-    })
-  }
+  // getData(){
+  //   this.apiService.get('http://localhost:3000/question').subscribe((data:any) => {
+  //     console.log(data);
+  //     this.dataQuestion = data
+  //   })
+  // }
   listAnswer:any =[]
   answerQues(id:number,answer:any){
     console.log(id,answer);
