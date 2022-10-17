@@ -48,7 +48,7 @@ export class PagesComponent implements OnInit {
 
     this.poin = (countTrueAnswer/this.dataQuestion.length)*10
     this.showTrick = true
-    this.title = `${this.poin} điểm`
+    this.title = this.poin<5 ? `ngu như bò ${this.poin} điểm`: `${this.poin} điểm`
     window.document.getElementById('result')?.click()
   }
   randomQues(){
