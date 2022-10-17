@@ -27,10 +27,11 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.scss"
-            ],
-            "scripts": []
+            "styles": [ 
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/styles.scss" 
+           ], 
+            "scripts": [] 
           },
           "configurations": {
             "production": {
@@ -96,12 +97,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
-            ],
+             
+              "src/styles.scss" ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "643e9115-de3f-4987-81e7-b8ec6ca24b76"
   }
 }

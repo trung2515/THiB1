@@ -1,0 +1,35 @@
+{
+  "question": [
+    {
+      "id": 1,
+      "question": "cố dâu... tuổi",
+      "answer": [
+        "1","2","8","10"
+      ],
+      "Correct answer": "8",
+      "inBook":"Câu 1"
+    },
+    {
+      "id": 2,
+      "question": "Một cây làm chẳng...non",
+      "answer": [
+        "nên","sai","hư","hao"
+      ],
+      "Correct answer": "nên",
+      "inBook":"Câu 2"
+    },
+    {
+      "id": 3,
+      "question": "bên trên tầng lầu - ....",
+      "answer": [
+        "Phan Mạnh Quỳnh","Tiên Tiên","Tăng Duy Tân","Trung Quân"
+      ],
+      "Correct answer": "Tăng Duy Tân",
+      "inBook":"Câu 3"
+    }
+  ]
+    
+  
+  
+  
+}
