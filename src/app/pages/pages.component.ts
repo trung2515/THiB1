@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { timeout } from 'rxjs';
 import { DataServiceService } from '../data-service.service';
 import { MainService } from '../main.service';
 
@@ -46,19 +47,23 @@ export class PagesComponent implements OnInit {
       e.answer == creQues[0].correctAnswer? countTrueAnswer ++ : ''
     });
 
-    this.poin = (countTrueAnswer/this.dataQuestion.length)*10
+    this.poin = +((countTrueAnswer/this.dataQuestion.length)*10).toFixed(2)
     this.showTrick = true
-    this.title = this.poin<5 ? `ngu như bò ${this.poin} điểm`: `${this.poin} điểm`
+    this.title = this.poin<5 ? ` ${this.poin} điểm rớt môn`: `${this.poin} điểm qua môn`
     window.document.getElementById('result')?.click()
   }
   randomQues(){
     this.listAnswer = []
+
+    this.dataQuestion = []
+    setTimeout(() =>{
+      this.dataQuestion = this.question.data
+      this.dataQuestion.sort( (a:any, b:any) => {      
+        return  0.5  - Math.random( )
+      } )
+    },10)
+    
     this.showTrick = false
-  
-  
-    this.dataQuestion.sort( (a:any, b:any) => {      
-      return  0.5  - Math.random( )
-    } )
   }
 
 

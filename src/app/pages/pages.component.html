@@ -45,8 +45,8 @@
       <div class="col-12"> câu {{i+1}}: {{item.question}}</div>
       <div class="col-3"*ngFor="let answer of item.answer"> 
         <div class="form-check" >
-        <input (click)="answerQues(item.id,answer)" class="form-check-input" type="radio" name="cau{{item.id}}" id="cau{{item.id}}1">
-        <label class="form-check-label" for="cau{{item}}">
+        <input (click)="answerQues(item.id,answer)" class="form-check-input" type="radio" name="name{{item.id}}" id="{{answer}}">
+        <label class="form-check-label" for="{{answer}}">
           {{answer}}
         </label>
         <label *ngIf="showTrick &&( answer == item.correctAnswer)" class="mx-2"><i class="fa-solid fa-check text-success"></i></label>
