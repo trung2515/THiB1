@@ -7,19 +7,19 @@ export class DataServiceService {
 
   constructor() { }
   data:any = [
-    // {
-    //   "id": 1,
-    //   "question": 'He has been very interested in doing research on ............. since he was at high school.',
-    //   "answer": [
-    //     "biology ","biological","biologist","bjologically "
-    //   ],
-    //   "correctAnswer": "8",
-    //   "inBook":"Câu 1",
-    //   "trick":"vtv "
-    // },
+    {
+      "id": 1,
+      "question": 'He has been very interested in doing research on ............. since he was at high school.',
+      "answer": [
+        "biology","biological","biologist","bjologically "
+      ],
+      "correctAnswer": "biology",
+      "inBook":"Câu 1",
+      "trick":""
+    },
     {
       "id": 2,
-      "question": 'Are you sure that boys are more ............ than girls?',
+      "question": 'Are you sure that boys are more ...................than girls?',
       "answer": [
         "act ","active","action","activity"
       ],
@@ -27,21 +27,21 @@ export class DataServiceService {
       "inBook":"Câu 2",
       "trick":""
     },
-    // {
-    //   "id": 3,
-    //   "question": 'it iS generally believed that “Men make ..... house and women make .... home',
-    //   "answer": [
-    //     "no article/ no article ","a/an","the/ the","an/ the"
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 3",
-    //   "trick":""
-    // },
+    {
+      "id": 3,
+      "question": 'it iS generally believed that “Men make ....................... house and women make ........................ home',
+      "answer": [
+        "no article/ no article","a/an","the/ the","an/ the"
+      ],
+      "correctAnswer": "no article/ no article",
+      "inBook":"Câu 3",
+      "trick":""
+    },
     {
       "id": 4,
-      "question": 'Most doctors and nurses have to work on a ............ once or twice a week at the hospital.',
+      "question": 'Most doctors and nurses have to work on a .......................... once or twice a week at the hospital.',
       "answer": [
-        "solution  ","night shift","household chores","special dishes"
+        "solution","night shift","household chores","special dishes"
       ],
       "correctAnswer": "night shift",
       "inBook":"Câu 4",
@@ -49,7 +49,7 @@ export class DataServiceService {
     }
     ,{
       "id": 5,
-      "question": 'We enjoy....... time together in the evening when the family members gather in the living room After a day of working hard',
+      "question": 'We enjoy............................ time together in the evening when the family members gather in the living room After a day of working hard',
       "answer": [
         "spending","caring","taking","doing"
       ],
@@ -59,7 +59,7 @@ export class DataServiceService {
     }
     ,{
       "id": 6,
-      "question": "It is parents' duty and responsibility to..... hands to take care of their chỉldren and give them a happy home",
+      "question": "It is parents' duty and responsibility to.................... hands to take care of their chỉldren and give them a happy home",
       "answer": [
         "shake","hold","join","take"
       ],
@@ -69,7 +69,7 @@ export class DataServiceService {
     }
     ,{
       "id": 7,
-      "question": "He is a......boy. He is often kind and helpful to every classmate.",
+      "question": "He is a...................boy. He is often kind and helpful to every classmate.",
       "answer": [
         "frank","lovely","obedient","caring"
       ],
@@ -79,7 +79,7 @@ export class DataServiceService {
     }
     ,{
       "id": 8,
-      "question": "Doctors are supposed to ...... responsibility for human life",
+      "question": "Doctors are supposed to ........................... responsibility for human life",
       "answer": [
         "do","take","rush","join"
       ],
@@ -89,7 +89,7 @@ export class DataServiceService {
     }
     ,{
       "id": 9,
-      "question": "............ sure that you follow the instructions carefully.",
+      "question": "........................ sure that you follow the instructions carefully.",
       "answer": [
         "Believe","Try","do","make"
       ],
@@ -99,7 +99,7 @@ export class DataServiceService {
     }
     ,{
       "id": 10,
-      "question": "Sometimes Mr. Pike has to work very late....... night to do some important experiments.",
+      "question": "Sometimes Mr. Pike has to work very late...................... night to do some important experiments.",
       "answer": [
         "in","at","for","on"
       ],
@@ -109,7 +109,7 @@ export class DataServiceService {
     }
     ,{
       "id": 11,
-      "question": "Peter was....... a hurry to go so he did not stop to greet me.",
+      "question": "Peter was.................... a hurry to go so he did not stop to greet me.",
       "answer": [
         "in","on","with","over"
       ],
@@ -119,7 +119,7 @@ export class DataServiceService {
     }
     ,{
       "id": 12,
-      "question": "it... it is parents' responsibility to take good care of their children.",
+      "question": "it......................... it is parents' responsibility to take good care of their children.",
       "answer": [
         "commonly says that","commonly to be said that","is commonly said that","is commonly saying"
       ],
@@ -129,7 +129,7 @@ export class DataServiceService {
     }
     ,{
       "id": 13,
-      "question": "Most children enjoy......with their parents and siblings",
+      "question": "Most children enjoy.........................with their parents and siblings",
       "answer": [
         "play","to play","playing","played"
       ],
@@ -139,7 +139,7 @@ export class DataServiceService {
     }
     ,{
       "id": 14,
-      "question": "He studies............. his two brothers.",
+      "question": "He studies.......................... his two brothers.",
       "answer": [
         "much better than","more better than","more good than","very better than"
       ],
@@ -149,7 +149,7 @@ export class DataServiceService {
     }
     ,{
       "id": 15,
-      "question": "... the eldest child, he works hard to help his parents support the family.",
+      "question": "......................... the eldest child, he works hard to help his parents support the family.",
       "answer": [
         "be","is","to be","being"
       ],
@@ -159,7 +159,7 @@ export class DataServiceService {
     }
     ,{
       "id": 16,
-      "question": "They............. for 3 hours when the storm suddenly broke.",
+      "question": "They............................ for 3 hours when the storm suddenly broke.",
       "answer": [
         "had been running","have been running","are running","will be running"
       ],
@@ -169,7 +169,7 @@ export class DataServiceService {
     }
     ,{
       "id": 17,
-      "question": "No matter what happens next, I .......help you",
+      "question": "No matter what happens next, I........................help you",
       "answer": [
         "am","have","will","would"
       ],
@@ -179,7 +179,7 @@ export class DataServiceService {
     }
     ,{
       "id": 18,
-      "question": "I........... come to the conclusion that nowadays nobody cares about anything",
+      "question": "I.......................... come to the conclusion that nowadays nobody cares about anything",
       "answer": [
         "will","had","do","have"
       ],
@@ -189,7 +189,7 @@ export class DataServiceService {
     }
     ,{
       "id": 19,
-      "question": "I assumed you ......... paying for the repairs until the end of last year",
+      "question": "I assumed you ......................... paying for the repairs until the end of last year",
       "answer": [
         "have been","was been","are being","had been"
       ],
@@ -199,7 +199,7 @@ export class DataServiceService {
     }
     ,{
       "id": 20,
-      "question": "...........get tired ofanswering the same questions every day?",
+      "question": ".........................get tired ofanswering the same questions every day?",
       "answer": [
         "Have you ever"," Had you ever","Do you ever","Are you ever"
       ],
@@ -209,7 +209,7 @@ export class DataServiceService {
     }
     ,{
       "id": 21,
-      "question": "She ......... working on that manuscript for 2 years now",
+      "question": "She ....................... working on that manuscript for 2 years now",
       "answer": [
         "will be","has been","had been","is"
       ],
@@ -219,7 +219,7 @@ export class DataServiceService {
     }
     ,{
       "id": 22,
-      "question": "I.......... there once a long time ago and I ........ back since",
+      "question": "I.................... there once a long time ago and I ...................... back since",
       "answer": [
         "went/ have not been","go/ am not","have gone/was","was going/had not been"
       ],
@@ -229,7 +229,7 @@ export class DataServiceService {
     }
     ,{
       "id": 23,
-      "question": "She........... trying to pass her driving test but fails every time.",
+      "question": "She.......................... trying to pass her driving test but fails every time.",
       "answer": [
         "kept","is keeping","had kept","keeps"
       ],
@@ -239,7 +239,7 @@ export class DataServiceService {
     }
     ,{
       "id": 24,
-      "question": " .......... complete silence now while I try this experiment.",
+      "question": " ....................... complete silence now while I try this experiment.",
       "answer": [
         "am wanting","want","did want","have wanted"
       ],
@@ -250,7 +250,7 @@ export class DataServiceService {
 
     ,{
       "id": 25,
-      "question": " The students............ by Mrs. Monty. However, this week they.............. by Mr.Tanzer.",
+      "question": " The students...................... by Mrs. Monty. However, this week they......................... by Mr.Tanzer.",
       "answer": [
         "are usually taught/ are being taught","usually teach/ are teaching","have usually been taught/ have been teaching","were usually teaching/ are teaching"
       ],
@@ -260,7 +260,7 @@ export class DataServiceService {
     }
     ,{
       "id": 26,
-      "question": "You are old enough to take.............for what you have done",
+      "question": "You are old enough to take.........................for what you have done",
       "answer": [
         "responsible","responsibility","responsibly","irresponsible"
       ],
@@ -270,7 +270,7 @@ export class DataServiceService {
     }
     ,{
       "id": 27,
-      "question": "These quick and easy................ can be effective in the short term, but they have a cost",
+      "question": "These quick and easy.............................. can be effective in the short term, but they have a cost",
       "answer": [
         "solve","solvable","solutions","solvability"
       ],
@@ -280,7 +280,7 @@ export class DataServiceService {
     }
     ,{
       "id": 28,
-      "question": "John is.......... only child in his Ramily, so his parents love him a lot",
+      "question": "John is........................... only child in his Ramily, so his parents love him a lot",
       "answer": [
         "a","an","the","no article"
       ],
@@ -290,7 +290,7 @@ export class DataServiceService {
     }
     ,{
       "id": 29,
-      "question": "According to the boss, John is the most.........of executive secretary",
+      "question": "According to the boss, John is the most............................of executive secretary",
       "answer": [
         "supportive","caring","suitable","comfortable"
       ],
@@ -330,7 +330,7 @@ export class DataServiceService {
     }
     ,{
       "id": 33,
-      "question": "What are the.......... of that country? - I think Ít is some kinds of cheese and sauces.",
+      "question": "What are the........................ of that country? - I think Ít is some kinds of cheese and sauces.",
       "answer": [
         "drinks","beverages","grains","special dishes"
       ],
@@ -340,7 +340,7 @@ export class DataServiceService {
     }
     ,{
       "id": 34,
-      "question": "Peter tried his best and passed the driving test at the first..... ",
+      "question": "Peter tried his best and passed the driving test at the first...................... ",
       "answer": [
         "try","attempt","doing","aim"
       ],
@@ -350,7 +350,7 @@ export class DataServiceService {
     }
     ,{
       "id": 35,
-      "question": "where is jimmy? - he is.....work. he is busy......his monthly report ",
+      "question": "where is jimmy? - he is........................work. he is busy......................his monthly report ",
       "answer": [
         "on/ for","in/ about","to/ through","at/ with"
       ],
@@ -360,7 +360,7 @@ export class DataServiceService {
     }
     ,{
       "id": 36,
-      "question": "With greatly increased woridoads, everyone is .......... pressure now. ",
+      "question": "With greatly increased woridoads, everyone is ....................... pressure now. ",
       "answer": [
         "under","above","upon","out of"
       ],
@@ -370,7 +370,7 @@ export class DataServiceService {
     }
     ,{
       "id": 37,
-      "question": "We are not allowed..........jeans at schools",
+      "question": "We are not allowed..........................jeans at schools",
       "answer": [
         "wear","to wear","wearing","worn"
       ],
@@ -380,7 +380,7 @@ export class DataServiceService {
     }
     ,{
       "id": 40,
-      "question": "John.......... a respectful and obedient student",
+      "question": "John....................... a respectful and obedient student",
       "answer": [
         "said to be","is said","is said being","is said to be"
       ],
@@ -390,7 +390,7 @@ export class DataServiceService {
     }
     ,{
       "id": 41,
-      "question": "I love............ flms but I seldom find time to go to the cinema.",
+      "question": "I love.................. flms but I seldom find time to go to the cinema.",
       "answer": [
         "see","saw","seen","seeing"
       ],
@@ -400,7 +400,7 @@ export class DataServiceService {
     }
     ,{
       "id": 42,
-      "question": "In the last hundred years, traveling ........ much easier and more comfortable.",
+      "question": "In the last hundred years, traveling ....................... much easier and more comfortable.",
       "answer": [
         "becomes","has become","became","will become"
       ],
@@ -410,7 +410,7 @@ export class DataServiceService {
     }
     ,{
       "id": 43,
-      "question": "In the nineteenth century,it ......two or three months to cross Norrth America by covered wagon.",
+      "question": "In the nineteenth century,it ......................two or three months to cross Norrth America by covered wagon.",
       "answer": [
         "took","had taken","has taken","was taking"
       ],
@@ -420,7 +420,7 @@ export class DataServiceService {
     }
     ,{
       "id": 44,
-      "question": "In the past, the trip.... very rough and dangerous, but things ....... a great deal in the last hundred and fifty years",
+      "question": "In the past, the trip.................. very rough and dangerous, but things ..................... a great deal in the last hundred and fifty years",
       "answer": [
         "was/ have changed","is/ change","had been/ will change","has been/ changed"
       ],
@@ -430,7 +430,7 @@ export class DataServiceService {
     }
     ,{
       "id": 45,
-      "question": " Now you........ from New York to Los Angeles in a matter of hours",
+      "question": " Now you.................... from New York to Los Angeles in a matter of hours",
       "answer": [
         "are flying","would fly","will fly","can fly"
       ],
@@ -440,7 +440,7 @@ export class DataServiceService {
     }
     ,{
       "id": 46,
-      "question": " When Carol........... last night,I........... my favorite show on television.",
+      "question": " When Carol................. last night,I..................... my favorite show on television.",
       "answer": [
         "was calling/ watched","called/ have watched","called/ was watching","had called/ watched"
       ],
@@ -450,7 +450,7 @@ export class DataServiceService {
     }
     ,{
       "id": 47,
-      "question": "By this time next summer, you.......your studies.",
+      "question": "By this time next summer, you.................your studies.",
       "answer": [
         "completes","will complete","are completing","will have completed"
       ],
@@ -460,7 +460,7 @@ export class DataServiceService {
     }
     ,{
       "id": 48,
-      "question": " Right now, Jim ........  the newspaper, and Kathy........... dinner.",
+      "question": " Right now, Jim .......................  the newspaper, and Kathy..................... dinner.",
       "answer": [
         "reads/ has cooked","is reading/ is cooking","has read/ was cooking","read/ will be cooking"
       ],
@@ -470,7 +470,7 @@ export class DataServiceService {
     }
     ,{
       "id": 49,
-      "question": "Last night at this time, they.....the same thing. She............ and he .......the newspaper.",
+      "question": "Last night at this time, they.......................the same thing. She........................... and he ..................the newspaper.",
       "answer": [
         "are doing/ is cooking/ is reading.","were doing/ was cooking/ was reading","was doing/ has cooked/ is reading,","had done/ was cooking/ read"
       ],
@@ -480,7 +480,7 @@ export class DataServiceService {
     }
     ,{
       "id": 50,
-      "question": "When I............ home last night, I.....that Jane.......... a beautiful candlelight dinner.",
+      "question": "When I...................... home last night, I........................that Jane........................... a beautiful candlelight dinner.",
       "answer": [
         "had arrived/ discovered/ prepared","was arriving/ had discovered/ was preparing","have arrived/ was discovering/ had prepared","arrived/ descovered/ was preparing"
       ],
@@ -490,7 +490,7 @@ export class DataServiceService {
     }
     ,{
       "id": 51,
-      "question": "He was looking at his parents........waiting for recommendations.",
+      "question": "He was looking at his parents..........................waiting for recommendations.",
       "answer": [
         "obey","obedience","obedient","obedienty"
       ],
@@ -500,7 +500,7 @@ export class DataServiceService {
     }
     ,{
       "id": 52,
-      "question": "The interview with parents showed that the vast majority were............ Of teachers.",
+      "question": "The interview with parents showed that the vast majority were......................... Of teachers.",
       "answer": [
         "support","supportive","supporter","supporting"
       ],
@@ -508,19 +508,19 @@ export class DataServiceService {
       "inBook":"Câu 52",
       "trick":""
     }
-    // ,{
-    //   "id": 53,
-    //   "question": "Billy has been serious ,and he was taken to ............. hospital yesterday.",
-    //   "answer": [
-    //     "a","an","the","no article"
-    //   ],
-    //   "correctAnswer": "supportive",
-    //   "inBook":"Câu 53",
-    //   "trick":""
-    // }
+    ,{
+      "id": 53,
+      "question": "Billy has been serious ,and he was taken to ............. hospital yesterday.",
+      "answer": [
+        "a","an","the","no article"
+      ],
+      "correctAnswer": "no article",
+      "inBook":"Câu 53",
+      "trick":""
+    }
     ,{
       "id": 54,
-      "question": "My husband and I both go out to work so she share the........",
+      "question": "My husband and I both go out to work so she share the.............................",
       "answer": [
         "happiness","household chores","responsibility","employment"
       ],
@@ -530,17 +530,17 @@ export class DataServiceService {
     }
     ,{
       "id": 55,
-      "question": "you should not burn ..... You had better dig a hole and bury it",
+      "question": "you should not burn ................................. You had better dig a hole and bury it",
       "answer": [
         "dishes","lab","garbage","shift"
-      ],
+      ],  
       "correctAnswer": "garbage",
       "inBook":"Câu 55",
       "trick":""
     }
     ,{
       "id": 56,
-      "question": "He was very respectful at home and ...... to his parents",
+      "question": "He was very respectful at home and ........................... to his parents",
       "answer": [
         "responsible","caring","obedient","lovely"
       ],
@@ -550,7 +550,7 @@ export class DataServiceService {
     }
     ,{
       "id": 57,
-      "question": "One of vietnamese traditions is a belief in ...... families and in preserving their cultures",
+      "question": "One of vietnamese traditions is a belief in ............................ families and in preserving their cultures",
       "answer": [
         "wealthy","secure","safe","close-knit"
       ],
@@ -560,7 +560,7 @@ export class DataServiceService {
     }
     ,{
       "id": 58,
-      "question": "He was ........... when I had those problems and said whatever I did he would stand by me",
+      "question": "He was ................................ when I had those problems and said whatever I did he would stand by me",
       "answer": [
         "supportive","exciting","busy","dull"
       ],
@@ -570,7 +570,7 @@ export class DataServiceService {
     }
     ,{
       "id": 59,
-      "question": "He was determined to give family  a secure and solid ...........",
+      "question": "He was determined to give family  a secure and solid ..............................",
       "answer": [
         "base","floor","basement","ground"
       ],
@@ -578,19 +578,19 @@ export class DataServiceService {
       "inBook":"Câu 59",
       "trick":""
     }
-    // ,{
-    //   "id": 60,
-    //   "question": "It is hard Work looking ....... three children all day",
-    //   "answer": [
-    //     "after","up","to","through"
-    //   ],
-    //   "correctAnswer": "to",
-    //   "inBook":"Câu 60",
-    //   "trick":""
-    // }
+    ,{
+      "id": 60,
+      "question": "It is hard Work looking ....... three children all day",
+      "answer": [
+        "after","up","to","through"
+      ],
+      "correctAnswer": "after",
+      "inBook":"Câu 60",
+      "trick":""
+    }
     ,{
       "id": 61,
-      "question": "When my mother is busy preparing dinner, my father often gives a hand ...........tidying the living room",
+      "question": "When my mother is busy preparing dinner, my father often gives a hand ..................................tidying the living room",
       "answer": [
         "on","with","for","about"
       ],
@@ -600,7 +600,7 @@ export class DataServiceService {
     }
     ,{
       "id": 62,
-      "question": "I put your keys in the drawer........ they Cannot get lost",
+      "question": "I put your keys in the drawer................................. they Cannot get lost",
       "answer": [
         "because","let alone","instead of","so that"
       ],
@@ -610,7 +610,7 @@ export class DataServiceService {
     }
     ,{
       "id": 63,
-      "question": "alex is busy ......... for his exams",
+      "question": "alex is busy ............................ for his exams",
       "answer": [
         "to study","studied","studying","studies"
       ],
@@ -618,29 +618,29 @@ export class DataServiceService {
       "inBook":"Câu 63",
       "trick":""
     }
-    // ,{
-    //   "id": 64,
-    //   "question": "She is never willing .. any personal question.",
-    //   "answer": [
-    //     "answer","to answer","answering","answered"
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 64",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 65,
-    //   "question": "...a doctor, you have †o meet some certain Tequirements of the medical college.",
-    //   "answer": [
-    //     "To become","Become","Becoming","Become"
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 65",
-    //   "trick":""
-    // }
+    ,{
+      "id": 64,
+      "question": "She is never willing .. any personal question.",
+      "answer": [
+        "answer","to answer","answering","answered"
+      ],
+      "correctAnswer": "to answer",
+      "inBook":"Câu 64",
+      "trick":""
+    }
+    ,{
+      "id": 65,
+      "question": "...a doctor, you have †o meet some certain Tequirements of the medical college.",
+      "answer": [
+        "To become","Become","Becoming","Become"
+      ],
+      "correctAnswer": "To become",
+      "inBook":"Câu 65",
+      "trick":""
+    }
     ,{
       "id": 66,
-      "question": "Sam......... to change a light bulb when he...... and .....",
+      "question": "Sam................................. to change a light bulb when he............................ and ............................",
       "answer": [
         "Was trying/ Slipped/ fell","tried/ was sleeping / falling","had been trying/ slipped was falling","has tried / slips / falls"
       ],
@@ -650,7 +650,7 @@ export class DataServiceService {
     }
     ,{
       "id": 67,
-      "question": "Every day I ...... up at 6 o'clock, ....... breakfast at 7 o'clock and ...... for work at 8 o'clock",
+      "question": "Every day I ............................... up at 6 o'clock, .......................... breakfast at 7 o'clock and ............................... for work at 8 o'clock",
       "answer": [
         "get/ eat/ leave","have got/ eating / leaving","got/ ate/ left","will get/ have eaten/ left"
       ],
@@ -660,7 +660,7 @@ export class DataServiceService {
     }
     ,{
       "id": 68,
-      "question": "Yesterday, I ............. for work late because I ......... to set my alarm",
+      "question": "Yesterday, I ............................ for work late because I ............................. to set my alarm",
       "answer": [
         "had left/ forgot","was leaving/ was forgetting","left/ had forgot","had been leaving/ would forget"
       ],
@@ -670,7 +670,7 @@ export class DataServiceService {
     }
     ,{
       "id": 69,
-      "question": "By the time we............ to the train station, Susan.........for us for more than two hours",
+      "question": "By the time we.......................... to the train station, Susan.........................for us for more than two hours",
       "answer": [
         "win get/ has been waiting"," got/ was waiting ","got/ had been waiting","get/ will wait"
       ],
@@ -680,7 +680,7 @@ export class DataServiceService {
     }
     ,{
       "id": 70,
-      "question": "I............ for this company for more than thirtty years, and I intend to stay here until I..........next year",
+      "question": "I........................... for this company for more than thirtty years, and I intend to stay here until I...................next year",
       "answer": [
         "am working/ will retire"," am going to work/ am retiring ","work/ am going to retire","have been working/ retire"
       ],
@@ -690,7 +690,7 @@ export class DataServiceService {
     }
     ,{
       "id": 71,
-      "question": "My mother is always the first............. up and the last ..........to bed",
+      "question": "My mother is always the first......................... up and the last ..................to bed",
       "answer": [
         "getting/ going","to get/ going","getting/ to go","to get/ to go"
       ],
@@ -700,7 +700,7 @@ export class DataServiceService {
     }
     ,{
       "id": 72,
-      "question": "I............ you last night after dinner, but you.......there. Where ......you?",
+      "question": "I....................... you last night after dinner, but you.........................there. Where .............................you?",
       "answer": [
         "was calling/ are not/ are","called/ were not/ were","had called/ had not been/ were","called/ have not been/ are"
       ],
@@ -710,7 +710,7 @@ export class DataServiceService {
     }
     ,{
       "id": 73,
-      "question": "The Titanic............ the Atlantic when it........ an iceberg",
+      "question": "The Titanic........................the Atlantic when it......................... an iceberg",
       "answer": [
         "was crossing/ struck","had crossed/ was striking","crossed/ had struck","is crossing/ strikes"
       ],
@@ -720,7 +720,7 @@ export class DataServiceService {
     }
     ,{
       "id": 74,
-      "question": " ...... to come over for dinner tonight?",
+      "question": " ............................. to come over for dinner tonight?",
       "answer": [
         "Do you want","Are you wanting","have you wanted","will you want"
       ],
@@ -730,7 +730,7 @@ export class DataServiceService {
     }
     ,{
       "id": 75,
-      "question": " what .......... at this time tomorraw?",
+      "question": " what ............................. at this time tomorrOw?",
       "answer": [
         "will you do","will you be doing","will you have done","will you have been doing"
       ],
@@ -740,7 +740,7 @@ export class DataServiceService {
     }
     ,{
       "id": 76,
-      "question": " London is home to people of many..........cultures?",
+      "question": " London is home to people of many..................cultures?",
       "answer": [
         "diverse","diversity","diversify","diversification"
       ],
@@ -750,7 +750,7 @@ export class DataServiceService {
     }
     ,{
       "id": 77,
-      "question": "John cannot make a.................to get married to Mary or stay single until he can afford a house and a Car.",
+      "question": "John cannot make a.....................to get married to Mary or stay single until he can afford a house and a Car.",
       "answer": [
         "decide","decision","decisive","decisively"
       ],
@@ -760,7 +760,7 @@ export class DataServiceService {
     }
     ,{
       "id": 78,
-      "question": "My mother used to be a woman of great... but now she gets old and looks pale.",
+      "question": "My mother used to be a woman of great........................... but now she gets old and looks pale.",
       "answer": [
         "beauty","beautiful","beautifully","beautify"
       ],
@@ -780,7 +780,7 @@ export class DataServiceService {
     }
     ,{
       "id": 80,
-      "question": "At last they divorced after ten years of........... marriage.",
+      "question": "At last they divorced after ten years of................. marriage.",
       "answer": [
         "a","an","the","no article"
       ],
@@ -790,7 +790,7 @@ export class DataServiceService {
     }
     ,{
       "id": 81,
-      "question": "A curriculum that ignores ethnic tensions, racial antagonism, cultural............. and religious differences is not relevant",
+      "question": "A curriculum that ignores ethnic tensions, racial antagonism, cultural....................and religious differences is not relevant",
       "answer": [
         "diversity","Contacts","barries","levels"
       ],
@@ -810,7 +810,7 @@ export class DataServiceService {
     }
     ,{
       "id": 83,
-      "question": "It is not easy to .............our beauty when we get older and older.",
+      "question": "It is not easy to ....................our beauty when we get older and older.",
       "answer": [
         "develop","maintain","gain","collect"
       ],
@@ -916,6 +916,366 @@ export class DataServiceService {
       ],
       "correctAnswer": "what marriage is",
       "inBook":"Câu 93",
+      "trick":""
+    }
+    // ,{
+    //   "id": 94,
+    //   "question": "the lights .................out because we ....................the electricity bill",
+    //   "answer": [
+    //     "have gone/ did not pay","will go/ did not paid","go/would not pay","went/ had not paid"
+    //   ],
+    //   "correctAnswer": "what marriage is",
+    //   "inBook":"Câu 94",
+    //   "trick":""
+    // }
+    ,{
+      "id": 95,
+      "question": "....................Tom Cruise's last movie? Yes, I.................... it three days ago,",
+      "answer": [
+        "Have you ever Seen/ saw","Did you ever see/ have Seen","had you ever seen/ would see","Willyou ever see/ saw"
+      ],
+      "correctAnswer": "Have you ever Seen/ saw",
+      "inBook":"Câu 95",
+      "trick":""
+    }
+    ,{
+      "id": 96,
+      "question": "In the past, people................to the beach more often",
+      "answer": [
+        "Have gone","used to go","were going","had gone"
+      ],
+      "correctAnswer": "used to go",
+      "inBook":"Câu 96",
+      "trick":"used to + V"
+    }
+    ,{
+      "id": 97,
+      "question": "Soon, people .......................... most of the time at home.",
+      "answer": [
+        "will work","are working","have working","work"
+      ],
+      "correctAnswer": "will work",
+      "inBook":"Câu 97",
+      "trick":""
+    }
+    ,{
+      "id": 98,
+      "question": "I ..................a terrible accident while I .........................on the beach",
+      "answer": [
+        "seen/ am walking","saw / was walking","was seeing/ walked"," have seen/were walking"
+      ],
+      "correctAnswer": "saw / was walking",
+      "inBook":"Câu 98",
+      "trick":"Qúa khứ + while + quá khứ tiếp diễn"
+    }
+    ,{
+      "id": 99,
+      "question": "after all,she...................him since her childhood",
+      "answer": [
+        "knows","knew","was knowing","had knows"
+      ],
+      "correctAnswer": "had knows",
+      "inBook":"Câu 99",
+      "trick":""
+    }
+    ,{
+      "id": 100,
+      "question": "We...................... touch since we ............ school three years ago.",
+      "answer": [
+        "lost/ have left","have lost/ leave","have lost/ left","were losing/ had left"
+      ],
+      "correctAnswer": "have lost/ left",
+      "inBook":"Câu 100",
+      "trick":""
+    }
+    ,{
+      "id": 101,
+      "question": "Although they are twins with almost similarities in appearance,they are seldom in...........................",
+      "answer": [
+        "agree ","agreeable","agreement","agreeably"
+      ],
+      "correctAnswer": "agreement",
+      "inBook":"Câu 101",
+      "trick":""
+    }
+    ,{
+      "id": 102,
+      "question": "The more .................. and positive you look, the better you will feel",
+      "answer": [
+        "confide","confident","confidently","confidence"
+      ],
+      "correctAnswer": "confident",
+      "inBook":"Câu 102",
+      "trick":""
+    }
+    ,{
+      "id": 103,
+      "question": "My parents will have celebrated 30 years of....................... by next week.",
+      "answer": [
+        "marry ","married","marriageable","marriage"
+      ],
+      "correctAnswer": "marriage",
+      "inBook":"Câu 103",
+      "trick":""
+    }
+    ,{
+      "id": 104,
+      "question": "Mr. Pike held his wife's hands and talked urgently to her ina low voice, but there didn't seem to be any RESPONSE.",
+      "answer": [
+        "feeling","emotion","reply","effect"
+      ],
+      "correctAnswer": "reply",
+      "inBook":"Câu 104",
+      "trick":""
+    }
+    ,{
+      "id": 105,
+      "question": "Family is the place where............. children is not only tolerated but welcomed and encoureged ",
+      "answer": [
+        "taking","having","giving","showing"
+      ],
+      "correctAnswer": "having",
+      "inBook":"Câu 105",
+      "trick":""
+    }
+    ,{
+      "id": 106,
+      "question": "Socially, the married .................... is thought to be the basic unit of society.",
+      "answer": [
+        "couple","pair ","twins","double"
+      ],
+      "correctAnswer": "couple",
+      "inBook":"Câu 106",
+      "trick":""
+    }
+    ,{
+      "id": 107,
+      "question": "Professor Berg was very interested in the DIVERSITY of cultures all over the world.",
+      "answer": [
+        "variety ","changes","conservation","number"
+      ],
+      "correctAnswer": "variety ",
+      "inBook":"Câu 107",
+      "trick":""
+    }
+    ,{
+      "id": 108,
+      "question": "You are not.. ............ to say anything unless you wish to do  so",
+      "answer": [
+        "obliged","willing","equal","attracted"
+      ],
+      "correctAnswer": "obliged",
+      "inBook":"Câu 108",
+      "trick":""
+    }
+    ,{
+      "id": 109,
+      "question": "A woman can never have a happy married life without.......................... her husband. ",
+      "answer": [
+        "demanding","agreeing","trusting","determined"
+      ],
+      "correctAnswer": "trusting",
+      "inBook":"Câu 109",
+      "trick":""
+    }
+    ,{
+      "id": 110,
+      "question": "..................large number of India men agreed that it was unwise to confide in their wives.",
+      "answer": [
+        "a","an","the","no article"
+      ],
+      "correctAnswer": "a",
+      "inBook":"Câu 110",
+      "trick":""
+    }
+    ,{
+      "id": 111,
+      "question": "Not all men are concerned with........................... physical attractiveness of their girlfriends and wives.",
+      "answer": [
+        "a","an","the","no article"
+      ],
+      "correctAnswer": "no article",
+      "inBook":"Câu 111",
+      "trick":""
+    }
+    ,{
+      "id": 112,
+      "question": "My mother is the only one that I can absoltely confide..........................",
+      "answer": [
+        "in","for","with","up"
+      ],
+      "correctAnswer": "in",
+      "inBook":"Câu 112",
+      "trick":""
+    }
+    ,{
+      "id": 113,
+      "question": "After they have been ....................... love for 2 years,they decide to get narried",
+      "answer": [
+        "for","with","on","in"
+      ],
+      "correctAnswer": "in",
+      "inBook":"Câu 113",
+      "trick":""
+    }
+    ,{
+      "id": 114,
+      "question": "In some cases, Mary is thought not to be.................... her sister",
+      "answer": [
+        "as much intelligent than","so intelligentthan","inteligent more than","as intelligent as"
+      ],
+      "correctAnswer": "in",
+      "inBook":"Câu 114",
+      "trick":""
+    }
+    ,{
+      "id": 115,
+      "question": "She is .............I expect",
+      "answer": [
+        "more prettier than","far prettier than","much more prettier than","a lot prettier"
+      ],
+      "correctAnswer": "ar prettier than",
+      "inBook":"Câu 115",
+      "trick":""
+    }
+    ,{
+      "id": 116,
+      "question": "There were about 100 attendees at the wedding, and ... .......... half of them were the bride's and groom's relatives",
+      "answer": [
+        "less","not less than","no less than","nor less than"
+      ],
+      "correctAnswer": "no less than",
+      "inBook":"Câu 116",
+      "trick":""
+    }
+    ,{
+      "id": 117,
+      "question": "The bride looked ..............on her wedding than she does as usual.",
+      "answer": [
+        "nicer and more attractive","more nicer and more attractive","more nice and more attractive","more attractive and nicer"
+      ],
+      "correctAnswer": "nicer and more attractive",
+      "inBook":"Câu 117",
+      "trick":""
+    }
+    ,{
+      "id": 118,
+      "question": "....................,peopleused to read more.",
+      "answer": [
+        "wenty years before","twenty years ago","For twenty years","since twenty years"
+      ],
+      "correctAnswer": "twenty years ago",
+      "inBook":"Câu 118",
+      "trick":""
+    }
+    ,{
+      "id": 119,
+      "question": "..............in Rome than he.........................",
+      "answer": [
+        "No sooner he had arrived/ was being kidnapped","No sooner had he arrived/ was kidnapped","Had he no sooner arrived/ kidnapped","No sooner was he arriving/ had been kidnapped"
+      ],
+      "correctAnswer": "No sooner had he arrived/ was kidnapped",
+      "inBook":"Câu 119",
+      "trick":""
+    }
+    ,{
+      "id": 120,
+      "question": ".................... John usually watch TV at the weekend?",
+      "answer": [
+        "Will","Is ","Does","has"
+      ],
+      "correctAnswer": "Does",
+      "inBook":"Câu 120",
+      "trick":""
+    }
+    ,{
+      "id": 121,
+      "question": "I............................there once a long time ago and..................... back since.",
+      "answer": [
+        "was/ have not been","had been/ was not","would be/had not been","have been/ will not be"
+      ],
+      "correctAnswer": "was/ have not been",
+      "inBook":"Câu 121",
+      "trick":""
+    }
+    ,{
+      "id": 122,
+      "question": "We had to................................. the picnic because a hurricane waS just released on the radio.",
+      "answer": [
+        "call of","see about","put aside","do without"
+      ],
+      "correctAnswer": "call of",
+      "inBook":"Câu 122",
+      "trick":""
+    }
+    ,{
+      "id": 123,
+      "question": "As many as ten-million children ....................... . ... with the virus by the end of this decade.",
+      "answer": [
+        "have been infected","will be effecting","had been infected","will have been infected"
+      ],
+      "correctAnswer": "will have been infected",
+      "inBook":"Câu 123",
+      "trick":""
+    }
+    ,{
+      "id": 124,
+      "question": " What......................when the fire alarm ....................off",
+      "answer": [
+        "are you doing/ will go","were you doing/ went","had been infected","will you do/ are going"
+      ],
+      "correctAnswer": "were you doing/ went",
+      "inBook":"Câu 124",
+      "trick":""
+    }
+    ,{
+      "id": 125,
+      "question": "  .................... you send this wedding card to peter,please?",
+      "answer": [
+        "Will","Are","Did","Had"
+      ],
+      "correctAnswer": "Will",
+      "inBook":"Câu 125",
+      "trick":""
+    }
+    ,{
+      "id": 126,
+      "question": "When Peter ..........................I................................  him to your new books.",
+      "answer": [
+        "will arrive/ take","arrives/ will take","has arrived/ am taking","had arrived/ had taken"
+      ],
+      "correctAnswer": "arrives/ will take",
+      "inBook":"Câu 126",
+      "trick":""
+    }
+    ,{
+      "id": 127,
+      "question": "She is a kind of woman who does not care much of work but generally ............ only with colleagues for meals, movies or late nights at a club",
+      "answer": [
+        "supposes","socializes","attends","discusses"
+      ],
+      "correctAnswer": "socializes",
+      "inBook":"Câu 127",
+      "trick":""
+    }
+    ,{
+      "id": 128,
+      "question": "I didn't think his comments  were very APPROPRIATE at the time.",
+      "answer": [
+        "correct ","right","exact","suitable"
+      ],
+      "correctAnswer": "suitable",
+      "inBook":"Câu 128",
+      "trick":""
+    }
+    ,{
+      "id": 129,
+      "question": "You should...............more attention to what your teacher explains.",
+      "answer": [
+        "make ","get","set","pay"
+      ],
+      "correctAnswer": "pay",
+      "inBook":"Câu 129",
       "trick":""
     }
 
