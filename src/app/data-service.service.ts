@@ -1124,7 +1124,7 @@ export class DataServiceService {
       "answer": [
         "as much intelligent than","so intelligentthan","inteligent more than","as intelligent as"
       ],
-      "correctAnswer": "in",
+      "correctAnswer": "as intelligent as",
       "inBook":"Câu 114",
       "trick":""
     }
@@ -1134,7 +1134,7 @@ export class DataServiceService {
       "answer": [
         "more prettier than","far prettier than","much more prettier than","a lot prettier"
       ],
-      "correctAnswer": "ar prettier than",
+      "correctAnswer": "far prettier than",
       "inBook":"Câu 115",
       "trick":""
     }
@@ -1160,7 +1160,7 @@ export class DataServiceService {
     }
     ,{
       "id": 118,
-      "question": "....................,peopleused to read more.",
+      "question": "....................,people used to read more.",
       "answer": [
         "wenty years before","twenty years ago","For twenty years","since twenty years"
       ],
@@ -1276,6 +1276,727 @@ export class DataServiceService {
       ],
       "correctAnswer": "pay",
       "inBook":"Câu 129",
+      "trick":""
+    }
+    ,{
+      "id": 130,
+      "question": "Body language is a potent form of.................... communication.",
+      "answer": [
+        "verbal","no-verbal","tongue","oral"
+      ],
+      "correctAnswer": "no-verbal",
+      "inBook":"Câu 130",
+      "trick":""
+    }
+    ,{
+      "id": 131,
+      "question": "Our teacher often said, “Who knows the answer?......................... your hand.",
+      "answer": [
+        "Rise","Lift","Raise","Heighten"
+      ],
+      "correctAnswer": "Raise",
+      "inBook":"Câu 131",
+      "trick":""
+    }
+    ,{
+      "id": 132,
+      "question": "This is the INSTANCE  where big, obvious non-verbal signals are appropriate.",
+      "answer": [
+        "situation","attention","place ","matter "
+      ],
+      "correctAnswer": "situation",
+      "inBook":"Câu 132",
+      "trick":""
+    }
+    ,{
+      "id": 133,
+      "question": "They started as.............. gatherings but they have become increasingly formalized in the last few years.",
+      "answer": [
+        "informal","informally ","informalize  ","informality  "
+      ],
+      "correctAnswer": "informal",
+      "inBook":"Câu 133",
+      "trick":""
+    }
+    ,{
+      "id": 134,
+      "question": "Children who are isolated and lonely seem to have poor language and ...............................",
+      "answer": [
+        "communicate ","communication","communicative","communicator"
+      ],
+      "correctAnswer": "communication",
+      "inBook":"Câu 134",
+      "trick":""
+    }
+    ,{
+      "id": 135,
+      "question": "The lecturer explained the problem very clearly and is always ........................ in response to question",
+      "answer": [
+        "attention ","attentive","attentively","attentiveness"
+      ],
+      "correctAnswer": "attentive",
+      "inBook":"Câu 135",
+      "trick":""
+    }
+    ,{
+      "id": 136,
+      "question": "Pay more attention .................... Picture and you can find out who is robber.",
+      "answer": [
+        "to","for","at","on"
+      ],
+      "correctAnswer": "to",
+      "inBook":"Câu 136",
+      "trick":""
+    }
+    ,{
+      "id": 137,
+      "question": "She looked............. me, smiling happily and confidently.",
+      "answer": [
+        "on","over","forward","at"
+      ],
+      "correctAnswer": "at",
+      "inBook":"Câu 137",
+      "trick":""
+    }
+    ,{
+      "id": 138,
+      "question": "What an attractive hair style you have got, Mary?  ...........................................",
+      "answer": [
+        "Thank you very much. I am afraid.","You are telling a lie","Thank you for your compliment","I don't like your saying"
+      ],
+      "correctAnswer": "Thank you for your compliment",
+      "inBook":"Câu 138",
+      "trick":""
+    }
+    ,{
+      "id": 139,
+      "question": "in..................,most social situations, ..................informality is appreciated",
+      "answer": [
+        "ø/ø","the/an","a/the","the/a"
+      ],
+      "correctAnswer": "ø/ø",
+      "inBook":"Câu 139",
+      "trick":""
+    }
+    ,{
+      "id": 140,
+      "question": "What.................... beautiful dress you are wearing! - Thank you. That is...................nice compliment.",
+      "answer": [
+        "a/a","the/ø","ø/ø","the/the"
+      ],
+      "correctAnswer": "a/a",
+      "inBook":"Câu 140",
+      "trick":""
+    }
+    
+    ,{
+      "id": 141,
+      "question": ".................... you wanted to ask your teacher a question during his lecture, what would you do?",
+      "answer": [
+        "As","As if","Even of","Suppose"
+      ],
+      "correctAnswer": "Suppose",
+      "inBook":"Câu 141",
+      "trick":""
+    }
+    ,{
+      "id": 142,
+      "question": " John asked me ............ in English.",
+      "answer": [
+        "what does this word mean","what that word means","what did this word mean","what that word meant"
+      ],
+      "correctAnswer": "what that word meant",
+      "inBook":"Câu 142",
+      "trick":""
+    }
+    ,{
+      "id": 143,
+      "question": "The mother told her son ......................... so impolitely.",
+      "answer": [
+        "not behave","not to behave","not behaving","did not behave"
+      ],
+      "correctAnswer": "not to behave",
+      "inBook":"Câu 143",
+      "trick":""
+    }
+    ,{
+      "id": 144,
+      "question": "She said she .. ... collect it for me after work.",
+      "answer": [
+        "would","did","must","had"
+      ],
+      "correctAnswer": "would",
+      "inBook":"Câu 144",
+      "trick":""
+    }
+    ,{
+      "id": 145,
+      "question": "She said I......................... an angel.",
+      "answer": [
+        "am","was","were","have been"
+      ],
+      "correctAnswer": "was",
+      "inBook":"Câu 145",
+      "trick":""
+    }
+    ,{
+      "id": 146,
+      "question": "I told him ..................... the word to Jane somehow that I........................... to reach her during the early hours",
+      "answer": [
+        "passing/ will try","he will pass/tried ","to pass/ would be trying","he passed/have tried"
+      ],
+      "correctAnswer": "to pass/ would be trying",
+      "inBook":"Câu 146",
+      "trick":""
+    }
+    ,{
+      "id": 147,
+      "question": "Laura said she had worked on the assignment since ........................",
+      "answer": [
+        "yesterday ","two days ago","the day before","the next day"
+      ],
+      "correctAnswer": "the day before",
+      "inBook":"Câu 147",
+      "trick":""
+    }
+    ,{
+      "id": 148,
+      "question": "John asked me .............. interested  in m any kind of sports.",
+      "answer": [
+        "if I were ","if were I","if  was I","if I was"
+      ],
+      "correctAnswer": "if I was",
+      "inBook":"Câu 148",
+      "trick":""
+    }
+    ,{
+      "id": 149,
+      "question": "I.......................you everything I am doing, and you have to do the same.",
+      "answer": [
+        "will tell","would tell","told","was telling"
+      ],
+      "correctAnswer": "will tell",
+      "inBook":"Câu 149",
+      "trick":""
+    }
+    ,{
+      "id": 150,
+      "question": "John asked me ............ that film the night before.",
+      "answer": [
+        "that I saw","had I seen","if I had seen","if had I seen"
+      ],
+      "correctAnswer": "if I had seen",
+      "inBook":"Câu 150",
+      "trick":""
+    }
+    ,{
+      "id": 151,
+      "question": "A new........................ satellite has just been launched into the earth's orbit to take some necessary hotographs.",
+      "answer": [
+        "communicate","communication","communicative","communicatively"
+      ],
+      "correctAnswer": "communication",
+      "inBook":"Câu 151",
+      "trick":""
+    }
+    ,{
+      "id": 152,
+      "question": "It is of great............ to show your interest and politeness when you are having a job interview.",
+      "answer": [
+        "importance","important","importantly","unimportant"
+      ],
+      "correctAnswer": "importance",
+      "inBook":"Câu 152",
+      "trick":""
+    }
+    ,{
+      "id": 153,
+      "question": " Facial............... show one's feelings when he is communicating.",
+      "answer": [
+        "expressions","expresses","expressive","expressively"
+      ],
+      "correctAnswer": "expressions",
+      "inBook":"Câu 153",
+      "trick":""
+    }
+    ,{
+      "id": 154,
+      "question": " Expressing ................... confidence is important to those who want to succeed in....................... Job interview",
+      "answer": [
+        "a/the","the/ø","a/a","ø/a"
+      ],
+      "correctAnswer": "ø/a",
+      "inBook":"Câu 154",
+      "trick":""
+    }
+    ,{
+      "id": 155,
+      "question": " ...................... nonverbal communication is different from culture to culture.",
+      "answer": [
+        "A","An","the","ø"
+      ],
+      "correctAnswer": "ø",
+      "inBook":"Câu 155",
+      "trick":""
+    }
+    ,{
+      "id": 156,
+      "question": " Some people get married not simply because they are ............ love.",
+      "answer": [
+        "for","with","in","on"
+      ],
+      "correctAnswer": "in",
+      "inBook":"Câu 156",
+      "trick":""
+    }
+    ,{
+      "id": 157,
+      "question": "Education is very necessary........................... leading a good life.",
+      "answer": [
+        "on","in","for","with"
+      ],
+      "correctAnswer": "in",
+      "inBook":"Câu 157",
+      "trick":"necessary + for/to"
+    }
+    ,{
+      "id": 158,
+      "question": "She never looks .................anyone  who she is  talking..................she seems to be lack....................condifence",
+      "answer": [
+        "at/ to/ of","for/ with/ in","up/for/ with","on/about/for"
+      ],
+      "correctAnswer": "at/ to/ of",
+      "inBook":"Câu 158",
+      "trick":"talking + to || be lack + of "
+    }
+    ,{
+      "id": 159,
+      "question": "He came to ............ for what had happened h had clearly been in the wrong",
+      "answer": [
+        "apologize","compliment","promise","serve"
+      ],
+      "correctAnswer": "apologize",
+      "inBook":"Câu 159",
+      "trick":""
+    }
+    ,{
+      "id": 160,
+      "question": "He had never experienced such discourtesy toward the president as it occurred at the annual meeting in may",
+      "answer": [
+        "politeness","rudeness","encouragement","measurement"
+      ],
+      "correctAnswer": "apologize",
+      "inBook":"Câu 160",
+      "trick":""
+    }
+    ,{
+      "id": 160,
+      "question": "He had never experienced such discourtesy toward the president as it occurred at the annual meeting in may",
+      "answer": [
+        "politeness","rudeness","encouragement","measurement"
+      ],
+      "correctAnswer": "apologize",
+      "inBook":"Câu 160",
+      "trick":""
+    }
+    ,{
+      "id": 161,
+      "question": "John looked up at Jane and tried a smile of love, of.................., of gratitude.",
+      "answer": [
+        "dislike","unreliability","trust","anger"
+      ],
+      "correctAnswer": "trust",
+      "inBook":"Câu 161",
+      "trick":""
+    }
+    ,{
+      "id": 162,
+      "question": "body language inclues our....................................facial expressions, and gestures.",
+      "answer": [
+        "posture","mature","picture","body"
+      ],
+      "correctAnswer": "posture",
+      "inBook":"Câu 162",
+      "trick":""
+    }
+    ,{
+      "id": 163,
+      "question": "Parents INTERPRET facial and vocal expressions as indicators of how a baby is feeling.",
+      "answer": [
+        "translate","understand","read","comprehend"
+      ],
+      "correctAnswer": "understand",
+      "inBook":"Câu 163",
+      "trick":""
+    }
+    ,{
+      "id": 164,
+      "question": "Later a wine reception will be followed by a concert before guests tuck into A BANQUET ",
+      "answer": [
+        "an enormous breakfast","a formal conference","an informal party","a formal party"
+      ],
+      "correctAnswer": "a formal party",
+      "inBook":"Câu 164",
+      "trick":""
+    }
+    ,{
+      "id": 165,
+      "question": " He asked us not to make so much noise .................... he was working.",
+      "answer": [
+        "and that if","and","and that","and added that"
+      ],
+      "correctAnswer": "and added that",
+      "inBook":"Câu 165",
+      "trick":""
+    }
+    ,{
+      "id": 166,
+      "question": "She told him.................",
+      "answer": [
+        "patient","to be patient","was patient","that being patient"
+      ],
+      "correctAnswer": "to be patient",
+      "inBook":"Câu 166",
+      "trick":"told + .... + to ...."
+    }
+    ,{
+      "id": 167,
+      "question": "Daniel asked me if I thought..................",
+      "answer": [
+        "t will rain today","it will rain that day","it would rain today","it would rain that day"
+      ],
+      "correctAnswer": "it would rain that day",
+      "inBook":"Câu 167",
+      "trick":""
+    }
+    ,{
+      "id": 168,
+      "question": "Barbara asked me..................the homework that week",
+      "answer": [
+        "that she must do","if she has to do","if she had to do","if did she have to do"
+      ],
+      "correctAnswer": "if she had to do",
+      "inBook":"Câu 168",
+      "trick":""
+    }
+    ,{
+      "id": 169,
+      "question": "robert wanted to know if i was leaving the ..................................friday",
+      "answer": [
+        "following","ago","previous","before"
+      ],
+      "correctAnswer": "following",
+      "inBook":"Câu 169",
+      "trick":""
+    }
+    ,{
+      "id": 170,
+      "question": "Jenifer sked me .........................the week before",
+      "answer": [
+        "where had I gone","where I had gone","where did I gone","I had gone where"
+      ],
+      "correctAnswer": "where I had gone",
+      "inBook":"Câu 170",
+      "trick":""
+    }
+    ,{
+      "id": 171,
+      "question": "I............................ to the shops, but .I ................................. anything because I............................ my wallet.",
+      "answer": [
+        "go/ cannot buy/ will lose ","was going/ did not buy/ have lost","am going/ am not buying/ will lose","went/ could not buy/ had lost"
+      ],
+      "correctAnswer": "went/ could not buy/ had lost",
+      "inBook":"Câu 171",
+      "trick":""
+    }
+    ,{
+      "id": 172,
+      "question": "I .....................well recently.I................to see my doctor yesterday. He said that I.............. somerest.",
+      "answer": [
+        "do not sleep/ went/ would need","have not slept/ went/ needed"," did not sleep/ go/ will need","had not slept/ went/ had needed"
+      ],
+      "correctAnswer": "have not slept/ went/ needed",
+      "inBook":"Câu 172",
+      "trick":""
+    }
+    ,{
+      "id": 173,
+      "question": "They..................... him for weeks",
+      "answer": [
+        "do not see","did not see","have not seen","will not have seen"
+      ],
+      "correctAnswer": "have not slept/ went/ needed",
+      "inBook":"Câu 173",
+      "trick":""
+    }
+    // ,{
+    //   "id": 174,
+    //   "question": " Everyday Mary................. on the computer, but today she..................... a typewriter because there is n power.",
+    //   "answer": [
+    //     "types/ is using","is typing/ uses","has typed/ will use","types/ has used"
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 174",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 175,
+    //   "question": " She said that she hadn't visited the UK ...................",
+    //   "answer": [
+    //     "before","then","now","ago"
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 175",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 176,
+    //   "question": " He was so .................... that he could not even say a word.",
+    //   "answer": [
+    //     "nerve","nerves","nervous","nervously"
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 176",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 177,
+    //   "question": " I am really............. in the way he talks, but the way he behaves.",
+    //   "answer": [
+    //     "interest","interested ","interesting","interestingly"
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 177",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 178,
+    //   "question": "His attitude made me really...................",
+    //   "answer": [
+    //     "anger","angers ","angry","angrily"
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 178",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 179,
+    //   "question": "We can communicate not only through ..................words but also through ...................body language",
+    //   "answer": [
+    //     "ø/ø","the/the ","ø/the","the/ø"
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 179",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 180,
+    //   "question": " He has not kept in touch with us for........... long time",
+    //   "answer": [
+    //     "a","an ","the","ø"
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 180",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 181,
+    //   "question": "He got angry ............ me when I said that he was wrong",
+    //   "answer": [
+    //     "on","upon","with","for"
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 181",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 182,
+    //   "question": "A smile is a sign............ friendliness and interest.",
+    //   "answer": [
+    //     "on","about","of","from"
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 182",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 183,
+    //   "question": "Peter is very busy ............. his new house.",
+    //   "answer": [
+    //     "over ","with ","for ","on "
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 183",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 184,
+    //   "question": "The meaning from touch is dependent ..........-- the context, the relationship between Communicators, and the manner of touch.",
+    //   "answer": [
+    //     "in ","upon ","with ","from "
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 184",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 185,
+    //   "question": " When communicating, nonverbal messages can ................ with verbal messages in some ways.",
+    //   "answer": [
+    //     "act","interact ","mix ","go "
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 185",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 186,
+    //   "question": " .................................can be defined as communication include handshakes, holding hands, kissing, back slapping, a pat on the shoulders, and brushing an arm.",
+    //   "answer": [
+    //     "Touches","Eye contact ","Facial expressions ","Wink "
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 186",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 187,
+    //   "question": "  A gesture is a non-vocal bodily............. intended to express meaning.",
+    //   "answer": [
+    //     "action","glance","contact","movement "
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 187",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 188,
+    //   "question": "Children can be a little..... . and they like to see quick results.",
+    //   "answer": [
+    //     "shy","slow","impatient","polite "
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 188",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 189,
+    //   "question": "They do their work with such cheerfulness,............. and unselfish dedication.",
+    //   "answer": [
+    //     "friendliness ","laziness ","politeness","shyness "
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 189",
+    //   "trick":""
+    // }
+    // ,{
+    //   "id": 190,
+    //   "question": "An important source of dissatisfaction was a ............................of challenge",
+    //   "answer": [
+    //     "lack","measurement ","sight","contact "
+    //   ],
+    //   "correctAnswer": "",
+    //   "inBook":"Câu 190",
+    //   "trick":""
+    // }
+    ,{
+      "id": 191,
+      "question": " When I................. up this morning, my roommate ....................... already ",
+      "answer": [
+        "am waking/leaves","wake/has left","woke/had left","was waking/left "
+      ],
+      "correctAnswer": "woke/had left",
+      "inBook":"Câu 191",
+      "trick":""
+    }
+    ,{
+      "id": 192,
+      "question": " Someone............. at the door. I................... ït  ",
+      "answer": [
+        "is knocking/will answer","knocked/would answer","knocks/have answered","would knock/was answering"
+      ],
+      "correctAnswer": "is knocking/will answer",
+      "inBook":"Câu 192",
+      "trick":""
+    }
+    ,{
+      "id": 193,
+      "question": "in five minutes, they ............for three hours on the phone",
+      "answer": [
+        "are talking","have talked","will talk","will have been talking"
+      ],
+      "correctAnswer": "will have been talking",
+      "inBook":"Câu 193",
+      "trick":""
+    }
+    ,{
+      "id": 194,
+      "question": "These workers............................on strie to ask for higher salary at presen",
+      "answer": [
+        "are going","was going","have gone","had gone"
+      ],
+      "correctAnswer": "are going",
+      "inBook":"Câu 194",
+      "trick":""
+    }
+    // ,{
+    //   "id": 195,
+    //   "question": "............................him very much. He is so brilliant",
+    //   "answer": [
+    //     "like ","am liking","have liked","was liking"
+    //   ],
+    //   "correctAnswer": "are going",
+    //   "inBook":"Câu 195",
+    //   "trick":""
+    // }
+    ,{
+      "id": 196,
+      "question": "John said that his brother.............................. at home then",
+      "answer": [
+        "is","was","were","has been"
+      ],
+      "correctAnswer": "was",
+      "inBook":"Câu 196",
+      "trick":""
+    }
+    ,{
+      "id": 197,
+      "question": " Max told me ........................... abook in the evening",
+      "answer": [
+        "if he often reads","he has often read","that he often read","he was reading"
+      ],
+      "correctAnswer": "that he often read",
+      "inBook":"Câu 197",
+      "trick":""
+    }
+    ,{
+      "id": 198,
+      "question": " Mary told me.................................home at that moment,she............................her parents with the farm work.",
+      "answer": [
+        "that if she was/ had helped","if she were/ will have helped","that if she had been/ would have helped","that she had been/ would have helped"
+      ],
+      "correctAnswer": "that if she had been/ would have helped",
+      "inBook":"Câu 198",
+      "trick":""
+    }
+    ,{
+      "id": 199,
+      "question": " Tim asked Sarah........................English so far",
+      "answer": [
+        "she had been learning how long ","how long was she learning","how long she has been learning","how long she had been learning"
+      ],
+      "correctAnswer": "how long she had been learning",
+      "inBook":"Câu 199",
+      "trick":""
+    }
+    ,{
+      "id": 200,
+      "question": "Tom said that he had been to England ..................",
+      "answer": [
+        "ten years before","the years ago","the following ten years","the next ten years"
+      ],
+      "correctAnswer": "ten years before",
+      "inBook":"Câu 200",
       "trick":""
     }
 
