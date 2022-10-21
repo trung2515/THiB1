@@ -57,7 +57,7 @@ export class PagesComponent implements OnInit {
 
     this.dataQuestion = []
     setTimeout(() =>{
-      this.dataQuestion = this.question.data.filter((e:any)=>e.id > 154)
+      this.dataQuestion = this.question.data.filter((e:any)=>e.id > 0)
       this.dataQuestion.sort( (a:any, b:any) => {      
         return  0.5  - Math.random( )
       } )
