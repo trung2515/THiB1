@@ -52,19 +52,15 @@ export class PagesComponent implements OnInit {
     this.title = this.poin<5 ? ` ${this.poin} điểm rớt môn`: `${this.poin} điểm qua môn`
     window.document.getElementById('result')?.click()
   }
-  // randomQues(){
-  //   this.listAnswer = []
+  randomQues(){
 
-  //   this.dataQuestion = []
-  //   setTimeout(() =>{
-  //     this.dataQuestion = this.question.data.filter((e:any)=>e.id > 0)
-  //     this.dataQuestion.sort( (a:any, b:any) => {      
-  //       return  0.5  - Math.random( )
-  //     } )
-  //   },10)
-    
-  //   this.showTrick = false
-  // }
+
+      this.dataQuestion.sort( (a:any, b:any) => {      
+        return  0.5  - Math.random( )
+      } )
+
+
+  }
   selectQuesRange(e:any){
     let range = e.value
     range = range.split(',')
@@ -78,7 +74,7 @@ export class PagesComponent implements OnInit {
     this.dataQuestion = []
     setTimeout(() =>{
       this.selectQuesRange({value:'0,50'})
-    },50)
+    },20)
     this.showTrick = false
   }
 }

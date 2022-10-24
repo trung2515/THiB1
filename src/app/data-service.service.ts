@@ -1601,24 +1601,15 @@ export class DataServiceService {
     }
     ,{
       "id": 160,
-      "question": "He had never experienced such discourtesy toward the president as it occurred at the annual meeting in may",
+      "question": "He had never experienced such  DISCOURTESY toward the president as it occurred at the annual meeting in may",
       "answer": [
         "politeness","rudeness","encouragement","measurement"
       ],
-      "correctAnswer": "apologize",
+      "correctAnswer": "rudeness",
       "inBook":"Câu 160",
       "trick":""
     }
-    ,{
-      "id": 160,
-      "question": "He had never experienced such discourtesy toward the president as it occurred at the annual meeting in may",
-      "answer": [
-        "politeness","rudeness","encouragement","measurement"
-      ],
-      "correctAnswer": "apologize",
-      "inBook":"Câu 160",
-      "trick":""
-    }
+
     ,{
       "id": 161,
       "question": "John looked up at Jane and tried a smile of love, of.................., of gratitude.",
@@ -1745,7 +1736,7 @@ export class DataServiceService {
       "answer": [
         "do not see","did not see","have not seen","will not have seen"
       ],
-      "correctAnswer": "have not slept/ went/ needed",
+      "correctAnswer": "have not seen",
       "inBook":"Câu 173",
       "trick":""
     }
@@ -1783,7 +1774,7 @@ export class DataServiceService {
        "id": 177,
        "question": " I am really............. in the way he talks, but the way he behaves.",
        "answer": [
-         "interest","interested ","interesting","interestingly"
+         "interest","interested","interesting","interestingly"
        ],
        "correctAnswer": "interested",
        "inBook":"Câu 177",
@@ -1883,7 +1874,7 @@ export class DataServiceService {
        "id": 187,
        "question": "  A gesture is a non-vocal bodily............. intended to express meaning.",
        "answer": [
-         "action","glance","contact","movement "
+         "action","glance","contact","movement"
        ],
        "correctAnswer": "movement",
        "inBook":"Câu 187",
