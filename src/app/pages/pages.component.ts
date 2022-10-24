@@ -14,7 +14,7 @@ export class PagesComponent implements OnInit {
 
   ngOnInit(): void {
 
-  this.dataQuestion = this.question.data
+    this.selectQuesRange({value:'0,50'})
 
   
   }
@@ -52,19 +52,33 @@ export class PagesComponent implements OnInit {
     this.title = this.poin<5 ? ` ${this.poin} điểm rớt môn`: `${this.poin} điểm qua môn`
     window.document.getElementById('result')?.click()
   }
-  randomQues(){
-    this.listAnswer = []
+  // randomQues(){
+  //   this.listAnswer = []
 
+  //   this.dataQuestion = []
+  //   setTimeout(() =>{
+  //     this.dataQuestion = this.question.data.filter((e:any)=>e.id > 0)
+  //     this.dataQuestion.sort( (a:any, b:any) => {      
+  //       return  0.5  - Math.random( )
+  //     } )
+  //   },10)
+    
+  //   this.showTrick = false
+  // }
+  selectQuesRange(e:any){
+    let range = e.value
+    range = range.split(',')
+    return this.dataQuestion = this.question.data.filter((e:any)=>{return e.id >= +range[0] && e.id<= +range[1]} )
+  }
+  async reMake(e:any){
+    window.document.getElementById('isSelect')?.focus()
+    let a = window.document.getElementById('isSelect')  as HTMLSelectElement;
+    a.selectedIndex = 0
+    this.listAnswer = []
     this.dataQuestion = []
     setTimeout(() =>{
-      this.dataQuestion = this.question.data.filter((e:any)=>e.id > 0)
-      this.dataQuestion.sort( (a:any, b:any) => {      
-        return  0.5  - Math.random( )
-      } )
-    },10)
-    
+      this.selectQuesRange({value:'0,50'})
+    },50)
     this.showTrick = false
   }
-
-
 }

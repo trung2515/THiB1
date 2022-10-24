@@ -29,7 +29,7 @@ export class DataServiceService {
     },
     {
       "id": 3,
-      "question": 'it iS generally believed that “Men make ....................... house and women make ........................ home',
+      "question": 'it is generally believed that “Men make ....................... house and women make ........................ home',
       "answer": [
         "no article/ no article","a/an","the/ the","an/ the"
       ],
@@ -379,6 +379,26 @@ export class DataServiceService {
       "trick":""
     }
     ,{
+      "id": 38,
+      "question": "Sometimes I do not feed like......................to my sibling about my troubles.",
+      "answer": [
+        "talk","to talk","talking","talked"
+      ],
+      "correctAnswer": "talking",
+      "inBook":"Câu 38",
+      "trick":""
+    }
+    ,{
+      "id": 39,
+      "question": "The worker was ............................. his boss expected, so he was offered a raise.",
+      "answer": [
+        "more hard-working","as hard-working than","more hard-working than","more hard-working as"
+      ],
+      "correctAnswer": "more hard-working than",
+      "inBook":"Câu 39",
+      "trick":""
+    }
+    ,{
       "id": 40,
       "question": "John....................... a respectful and obedient student",
       "answer": [
@@ -580,7 +600,7 @@ export class DataServiceService {
     }
     ,{
       "id": 60,
-      "question": "It is hard Work looking ....... three children all day",
+      "question": "It is hard Work looking .......................... three children all day",
       "answer": [
         "after","up","to","through"
       ],
@@ -792,7 +812,7 @@ export class DataServiceService {
       "id": 81,
       "question": "A curriculum that ignores ethnic tensions, racial antagonism, cultural....................and religious differences is not relevant",
       "answer": [
-        "diversity","Contacts","barries","levels"
+        "diversity","contacts","barries","levels"
       ],
       "correctAnswer": "diversity",
       "inBook":"Câu 81",
@@ -918,16 +938,16 @@ export class DataServiceService {
       "inBook":"Câu 93",
       "trick":""
     }
-    // ,{
-    //   "id": 94,
-    //   "question": "the lights .................out because we ....................the electricity bill",
-    //   "answer": [
-    //     "have gone/ did not pay","will go/ did not paid","go/would not pay","went/ had not paid"
-    //   ],
-    //   "correctAnswer": "what marriage is",
-    //   "inBook":"Câu 94",
-    //   "trick":""
-    // }
+    //  ,{
+    //    "id": 94,
+    //    "question": "the lights .................out because we ....................the electricity bill",
+    //    "answer": [
+    //      "have gone/ did not pay","will go/ did not paid","go/would not pay","went/ had not paid"
+    //    ],
+    //    "correctAnswer": "what marriage is",
+    //    "inBook":"Câu 94",
+    //    "trick":""
+    //  }
     ,{
       "id": 95,
       "question": "....................Tom Cruise's last movie? Yes, I.................... it three days ago,",
@@ -1729,176 +1749,176 @@ export class DataServiceService {
       "inBook":"Câu 173",
       "trick":""
     }
-    // ,{
-    //   "id": 174,
-    //   "question": " Everyday Mary................. on the computer, but today she..................... a typewriter because there is n power.",
-    //   "answer": [
-    //     "types/ is using","is typing/ uses","has typed/ will use","types/ has used"
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 174",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 175,
-    //   "question": " She said that she hadn't visited the UK ...................",
-    //   "answer": [
-    //     "before","then","now","ago"
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 175",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 176,
-    //   "question": " He was so .................... that he could not even say a word.",
-    //   "answer": [
-    //     "nerve","nerves","nervous","nervously"
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 176",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 177,
-    //   "question": " I am really............. in the way he talks, but the way he behaves.",
-    //   "answer": [
-    //     "interest","interested ","interesting","interestingly"
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 177",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 178,
-    //   "question": "His attitude made me really...................",
-    //   "answer": [
-    //     "anger","angers ","angry","angrily"
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 178",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 179,
-    //   "question": "We can communicate not only through ..................words but also through ...................body language",
-    //   "answer": [
-    //     "ø/ø","the/the ","ø/the","the/ø"
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 179",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 180,
-    //   "question": " He has not kept in touch with us for........... long time",
-    //   "answer": [
-    //     "a","an ","the","ø"
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 180",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 181,
-    //   "question": "He got angry ............ me when I said that he was wrong",
-    //   "answer": [
-    //     "on","upon","with","for"
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 181",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 182,
-    //   "question": "A smile is a sign............ friendliness and interest.",
-    //   "answer": [
-    //     "on","about","of","from"
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 182",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 183,
-    //   "question": "Peter is very busy ............. his new house.",
-    //   "answer": [
-    //     "over ","with ","for ","on "
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 183",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 184,
-    //   "question": "The meaning from touch is dependent ..........-- the context, the relationship between Communicators, and the manner of touch.",
-    //   "answer": [
-    //     "in ","upon ","with ","from "
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 184",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 185,
-    //   "question": " When communicating, nonverbal messages can ................ with verbal messages in some ways.",
-    //   "answer": [
-    //     "act","interact ","mix ","go "
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 185",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 186,
-    //   "question": " .................................can be defined as communication include handshakes, holding hands, kissing, back slapping, a pat on the shoulders, and brushing an arm.",
-    //   "answer": [
-    //     "Touches","Eye contact ","Facial expressions ","Wink "
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 186",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 187,
-    //   "question": "  A gesture is a non-vocal bodily............. intended to express meaning.",
-    //   "answer": [
-    //     "action","glance","contact","movement "
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 187",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 188,
-    //   "question": "Children can be a little..... . and they like to see quick results.",
-    //   "answer": [
-    //     "shy","slow","impatient","polite "
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 188",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 189,
-    //   "question": "They do their work with such cheerfulness,............. and unselfish dedication.",
-    //   "answer": [
-    //     "friendliness ","laziness ","politeness","shyness "
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 189",
-    //   "trick":""
-    // }
-    // ,{
-    //   "id": 190,
-    //   "question": "An important source of dissatisfaction was a ............................of challenge",
-    //   "answer": [
-    //     "lack","measurement ","sight","contact "
-    //   ],
-    //   "correctAnswer": "",
-    //   "inBook":"Câu 190",
-    //   "trick":""
-    // }
+     ,{
+       "id": 174,
+       "question": " Everyday Mary................. on the computer, but today she..................... a typewriter because there is n power.",
+       "answer": [
+         "types/ is using","is typing/ uses","has typed/ will use","types/ has used"
+       ],
+       "correctAnswer": "types/ is using",
+       "inBook":"Câu 174",
+       "trick":""
+     }
+     ,{
+       "id": 175,
+       "question": " She said that she hadn't visited the UK ...................",
+       "answer": [
+         "before","then","now","ago"
+       ],
+       "correctAnswer": "before",
+       "inBook":"Câu 175",
+       "trick":""
+     }
+     ,{
+       "id": 176,
+       "question": " He was so .................... that he could not even say a word.",
+       "answer": [
+         "nerve","nerves","nervous","nervously"
+       ],
+       "correctAnswer": "nervous",
+       "inBook":"Câu 176",
+       "trick":""
+     }
+     ,{
+       "id": 177,
+       "question": " I am really............. in the way he talks, but the way he behaves.",
+       "answer": [
+         "interest","interested ","interesting","interestingly"
+       ],
+       "correctAnswer": "interested",
+       "inBook":"Câu 177",
+       "trick":""
+     }
+     ,{
+       "id": 178,
+       "question": "His attitude made me really...................",
+       "answer": [
+         "anger","angers ","angry","angrily"
+       ],
+       "correctAnswer": "angry",
+       "inBook":"Câu 178",
+       "trick":""
+     }
+     ,{
+       "id": 179,
+       "question": "We can communicate not only through ..................words but also through ...................body language",
+       "answer": [
+         "ø/ø","the/the ","ø/the","the/ø"
+       ],
+       "correctAnswer": "ø/ø",
+       "inBook":"Câu 179",
+       "trick":""
+     }
+     ,{
+       "id": 180,
+       "question": " He has not kept in touch with us for........... long time",
+       "answer": [
+         "a","an ","the","ø"
+       ],
+       "correctAnswer": "a",
+       "inBook":"Câu 180",
+       "trick":""
+     }
+     ,{
+       "id": 181,
+       "question": "He got angry ............ me when I said that he was wrong",
+       "answer": [
+         "on","upon","with","for"
+       ],
+       "correctAnswer": "with",
+       "inBook":"Câu 181",
+       "trick":""
+     }
+     ,{
+       "id": 182,
+       "question": "A smile is a sign............ friendliness and interest.",
+       "answer": [
+         "on","about","of","from"
+       ],
+       "correctAnswer": "of",
+       "inBook":"Câu 182",
+       "trick":""
+     }
+     ,{
+       "id": 183,
+       "question": "Peter is very busy ............. his new house.",
+       "answer": [
+         "over ","with","for","on "
+       ],
+       "correctAnswer": "with",
+       "inBook":"Câu 183",
+       "trick":""
+     }
+     ,{
+       "id": 184,
+       "question": "The meaning from touch is dependent ..........-- the context, the relationship between Communicators, and the manner of touch.",
+       "answer": [
+         "in ","upon","with ","from "
+       ],
+       "correctAnswer": "upon",
+       "inBook":"Câu 184",
+       "trick":""
+     }
+     ,{
+       "id": 185,
+       "question": " When communicating, nonverbal messages can ................ with verbal messages in some ways.",
+       "answer": [
+         "act","interact","mix ","go "
+       ],
+       "correctAnswer": "interact",
+       "inBook":"Câu 185",
+       "trick":""
+     }
+     ,{
+       "id": 186,
+       "question": " .................................can be defined as communication include handshakes, holding hands, kissing, back slapping, a pat on the shoulders, and brushing an arm.",
+       "answer": [
+         "Touches","Eye contact ","Facial expressions ","Wink "
+       ],
+       "correctAnswer": "Touches",
+       "inBook":"Câu 186",
+       "trick":""
+     }
+     ,{
+       "id": 187,
+       "question": "  A gesture is a non-vocal bodily............. intended to express meaning.",
+       "answer": [
+         "action","glance","contact","movement "
+       ],
+       "correctAnswer": "movement",
+       "inBook":"Câu 187",
+       "trick":""
+     }
+     ,{
+       "id": 188,
+       "question": "Children can be a little..... . and they like to see quick results.",
+       "answer": [
+         "shy","slow","impatient","polite "
+       ],
+       "correctAnswer": "impatient",
+       "inBook":"Câu 188",
+       "trick":""
+     }
+     ,{
+       "id": 189,
+       "question": "They do their work with such cheerfulness,............. and unselfish dedication.",
+       "answer": [
+         "friendliness","laziness ","politeness","shyness "
+       ],
+       "correctAnswer": "friendliness",
+       "inBook":"Câu 189",
+       "trick":""
+     }
+     ,{
+       "id": 190,
+       "question": "An important source of dissatisfaction was a ............................of challenge",
+       "answer": [
+         "lack","measurement ","sight","contact "
+       ],
+       "correctAnswer": "lack",
+       "inBook":"Câu 190",
+       "trick":""
+     }
     ,{
       "id": 191,
       "question": " When I................. up this morning, my roommate ....................... already ",
@@ -1939,16 +1959,16 @@ export class DataServiceService {
       "inBook":"Câu 194",
       "trick":""
     }
-    // ,{
-    //   "id": 195,
-    //   "question": "............................him very much. He is so brilliant",
-    //   "answer": [
-    //     "like ","am liking","have liked","was liking"
-    //   ],
-    //   "correctAnswer": "are going",
-    //   "inBook":"Câu 195",
-    //   "trick":""
-    // }
+    ,{
+      "id": 195,
+      "question": "............................him very much. He is so brilliant",
+      "answer": [
+        "like","am liking","have liked","was liking"
+      ],
+      "correctAnswer": "like",
+      "inBook":"Câu 195",
+      "trick":""
+    }
     ,{
       "id": 196,
       "question": "John said that his brother.............................. at home then",
