@@ -10,7 +10,7 @@ import { MainService } from '../main.service';
 })
 export class PagesComponent implements OnInit {
 
-  constructor( public apiService:MainService,public question:DataServiceService) { }
+  constructor( public apiService:MainService,public question:DataServiceService) {}
 
   ngOnInit(): void {
 
@@ -21,7 +21,7 @@ export class PagesComponent implements OnInit {
   dataQuestion:any = []
 
   listAnswer:any =[]
-  poin:number = 0
+  point:number = 0
   showTrick: boolean = false
   answerQues(myId:number,myAnswer:any){
     console.log(myId,myAnswer);
@@ -47,26 +47,23 @@ export class PagesComponent implements OnInit {
       e.answer == creQues[0].correctAnswer? countTrueAnswer ++ : ''
     });
 
-    this.poin = +((countTrueAnswer/this.dataQuestion.length)*10).toFixed(2)
+    this.point = +((countTrueAnswer/this.dataQuestion.length)*10).toFixed(2)
     this.showTrick = true
-    this.title = this.poin<5 ? ` ${this.poin} điểm rớt môn`: `${this.poin} điểm qua môn`
+    this.title = this.point<5 ? ` ${this.point} điểm rớt môn`: `${this.point} điểm qua môn`
     window.document.getElementById('result')?.click()
   }
   randomQues(){
-
-
       this.dataQuestion.sort( (a:any, b:any) => {      
         return  0.5  - Math.random( )
       } )
-
-
   }
   selectQuesRange(e:any){
+    this.showTrick = false
     let range = e.value
     range = range.split(',')
     return this.dataQuestion = this.question.data.filter((e:any)=>{return e.id >= +range[0] && e.id<= +range[1]} )
   }
-  async reMake(e:any){
+  reMake(e:any){
     window.document.getElementById('isSelect')?.focus()
     let a = window.document.getElementById('isSelect')  as HTMLSelectElement;
     a.selectedIndex = 0
