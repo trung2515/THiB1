@@ -43,7 +43,7 @@ export class PagesComponent implements OnInit {
     let countTrueAnswer = 0
     let data = [...this.dataQuestion]
     this.listAnswer.forEach((e:any) => {
-      let creQues:any = data.filter((q:any) => q.id == e.id)
+        let creQues:any = data.filter((q:any) => q.id == e.id)
       e.answer == creQues[0].correctAnswer? countTrueAnswer ++ : ''
     });
 

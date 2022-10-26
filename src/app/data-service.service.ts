@@ -9,7 +9,7 @@ export class DataServiceService {
   data:any = [
     {
       "id": 1,
-      "question": 'He has been very interested in doing research on ............. since he was at high school.',
+      "question": 'He has been very interested in doing research on .................................. since he was at high school.',
       "answer": [
         "biology","biological","biologist","bjologically "
       ],
@@ -19,7 +19,7 @@ export class DataServiceService {
     },
     {
       "id": 2,
-      "question": 'Are you sure that boys are more ...................than girls?',
+      "question": 'Are you sure that boys are more .....................................than girls?',
       "answer": [
         "act ","active","action","activity"
       ],
@@ -29,7 +29,7 @@ export class DataServiceService {
     },
     {
       "id": 3,
-      "question": 'it is generally believed that “Men make ....................... house and women make ........................ home',
+      "question": 'it is generally believed that “Men make ................................ house and women make ................................ home',
       "answer": [
         "no article/ no article","a/an","the/ the","an/ the"
       ],
@@ -69,7 +69,7 @@ export class DataServiceService {
     }
     ,{
       "id": 7,
-      "question": "He is a...................boy. He is often kind and helpful to every classmate.",
+      "question": "He is a..............................boy. He is often kind and helpful to every classmate.",
       "answer": [
         "frank","lovely","obedient","caring"
       ],
@@ -640,7 +640,7 @@ export class DataServiceService {
     }
     ,{
       "id": 64,
-      "question": "She is never willing .. any personal question.",
+      "question": "She is never willing ................................... any personal question.",
       "answer": [
         "answer","to answer","answering","answered"
       ],
@@ -650,7 +650,7 @@ export class DataServiceService {
     }
     ,{
       "id": 65,
-      "question": "...a doctor, you have †o meet some certain Tequirements of the medical college.",
+      "question": ".........................a doctor, you have †o meet some certain Tequirements of the medical college.",
       "answer": [
         "To become","Become","Becoming","Become"
       ],
@@ -870,7 +870,7 @@ export class DataServiceService {
     }
     ,{
       "id": 87,
-      "question": "Affected by the Western cultures, Vietnamese young people's attitudes....................... love and marriage have dramatically changed",
+      "question": "Affected by the Western cultures, Vietnamese young people's attitudes........................... love and marriage have dramatically changed",
       "answer": [
         "for","with","through","towards"
       ],
@@ -910,7 +910,7 @@ export class DataServiceService {
     }
     ,{
       "id": 91,
-      "question": "The number of the participants in the survey..............250 students for Oxford University",
+      "question": "The number of the participants in the survey....................................250 students for Oxford University",
       "answer": [
         "are","was","were","have been"
       ],
@@ -952,7 +952,7 @@ export class DataServiceService {
       "id": 95,
       "question": "....................Tom Cruise's last movie? Yes, I.................... it three days ago,",
       "answer": [
-        "Have you ever Seen/ saw","Did you ever see/ have Seen","had you ever seen/ would see","Willyou ever see/ saw"
+        "Have you ever Seen/ saw","Did you ever see/ have Seen","had you ever seen/ would see","Will you ever see/ saw"
       ],
       "correctAnswer": "Have you ever Seen/ saw",
       "inBook":"Câu 95",
@@ -1180,7 +1180,7 @@ export class DataServiceService {
     }
     ,{
       "id": 118,
-      "question": "....................,people used to read more.",
+      "question": "...........................,people used to read more.",
       "answer": [
         "wenty years before","twenty years ago","For twenty years","since twenty years"
       ],
@@ -1190,7 +1190,7 @@ export class DataServiceService {
     }
     ,{
       "id": 119,
-      "question": "..............in Rome than he.........................",
+      "question": "........................in Rome than he.........................",
       "answer": [
         "No sooner he had arrived/ was being kidnapped","No sooner had he arrived/ was kidnapped","Had he no sooner arrived/ kidnapped","No sooner was he arriving/ had been kidnapped"
       ],
@@ -1330,7 +1330,7 @@ export class DataServiceService {
     }
     ,{
       "id": 133,
-      "question": "They started as.............. gatherings but they have become increasingly formalized in the last few years.",
+      "question": "They started as.......................... gatherings but they have become increasingly formalized in the last few years.",
       "answer": [
         "informal","informally ","informalize  ","informality  "
       ],
@@ -1441,7 +1441,7 @@ export class DataServiceService {
     }
     ,{
       "id": 144,
-      "question": "She said she .. ... collect it for me after work.",
+      "question": "She said she ........................ collect it for me after work.",
       "answer": [
         "would","did","must","had"
       ],
@@ -1521,7 +1521,7 @@ export class DataServiceService {
     }
     ,{
       "id": 152,
-      "question": "It is of great............ to show your interest and politeness when you are having a job interview.",
+      "question": "It is of great................................ to show your interest and politeness when you are having a job interview.",
       "answer": [
         "importance","important","importantly","unimportant"
       ],
@@ -1531,7 +1531,7 @@ export class DataServiceService {
     }
     ,{
       "id": 153,
-      "question": " Facial............... show one's feelings when he is communicating.",
+      "question": " Facial............................ show one's feelings when he is communicating.",
       "answer": [
         "expressions","expresses","expressive","expressively"
       ],
@@ -1812,7 +1812,7 @@ export class DataServiceService {
      }
      ,{
        "id": 181,
-       "question": "He got angry ............ me when I said that he was wrong",
+       "question": "He got angry ................................ me when I said that he was wrong",
        "answer": [
          "on","upon","with","for"
        ],
@@ -1822,7 +1822,7 @@ export class DataServiceService {
      }
      ,{
        "id": 182,
-       "question": "A smile is a sign............ friendliness and interest.",
+       "question": "A smile is a sign.............................. friendliness and interest.",
        "answer": [
          "on","about","of","from"
        ],
@@ -1832,7 +1832,7 @@ export class DataServiceService {
      }
      ,{
        "id": 183,
-       "question": "Peter is very busy ............. his new house.",
+       "question": "Peter is very busy ................................ his new house.",
        "answer": [
          "over ","with","for","on "
        ],
@@ -1842,7 +1842,7 @@ export class DataServiceService {
      }
      ,{
        "id": 184,
-       "question": "The meaning from touch is dependent ..........-- the context, the relationship between Communicators, and the manner of touch.",
+       "question": "The meaning from touch is dependent ........................... the context, the relationship between Communicators, and the manner of touch.",
        "answer": [
          "in ","upon","with ","from "
        ],
@@ -1852,7 +1852,7 @@ export class DataServiceService {
      }
      ,{
        "id": 185,
-       "question": " When communicating, nonverbal messages can ................ with verbal messages in some ways.",
+       "question": " When communicating, nonverbal messages can .......................... with verbal messages in some ways.",
        "answer": [
          "act","interact","mix ","go "
        ],
@@ -1872,7 +1872,7 @@ export class DataServiceService {
      }
      ,{
        "id": 187,
-       "question": "  A gesture is a non-vocal bodily............. intended to express meaning.",
+       "question": "  A gesture is a non-vocal bodily............................ intended to express meaning.",
        "answer": [
          "action","glance","contact","movement"
        ],
@@ -1882,7 +1882,7 @@ export class DataServiceService {
      }
      ,{
        "id": 188,
-       "question": "Children can be a little..... . and they like to see quick results.",
+       "question": "Children can be a little.......................... and they like to see quick results.",
        "answer": [
          "shy","slow","impatient","polite "
        ],
@@ -1892,7 +1892,7 @@ export class DataServiceService {
      }
      ,{
        "id": 189,
-       "question": "They do their work with such cheerfulness,............. and unselfish dedication.",
+       "question": "They do their work with such cheerfulness,............................ and unselfish dedication.",
        "answer": [
          "friendliness","laziness ","politeness","shyness "
        ],

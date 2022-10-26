@@ -42,17 +42,17 @@
     <option value=51,100>từ câu 51 - 100</option>
     <option value=101,150>từ câu 101 - 150</option>
     <option value=151,200>từ câu 151 - 200</option>
-    <option value="0,9999">All</option>
+    <option value=0,9999>All</option>
 
   </select>
 </div>
- <button class="btn btn-primary col-12 col-md-3" (click)="randomQues()">Random question</button>
-    <div class="p-4 d-flex justify-content-center">
+ <button class="btn btn-primary col-12 col-md-3  mb-3 mb-md-0 me-0 me-md-3" (click)="randomQues()">Random câu hỏi</button>
+ <button class="btn btn-danger col-12 col-md-3  " (click)="reMake({value:'0,50'})">Làm lại</button>
+  <div class="p-4">
 
 
-        <!-- <button class="btn btn-primary" (click)="randomQues()">Random question</button> -->
 
-    </div>
+ 
 <div class="card p-4">
 
     <div class="row py-3" *ngFor="let item of dataQuestion;let i = index">
